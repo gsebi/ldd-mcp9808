@@ -10,5 +10,5 @@
  ```bash
  sudo nano /etc/udev/rules.d/99-mcp9808.rules
 
-  ```SUBSYSTEM=="i2c", KERNEL=="mcp9808", MODE="0660", GROUP="i2cgroup"
+ SUBSYSTEM=="i2c", KERNEL=="mcp9808", MODE="0660", GROUP="i2cgroup"
 
