@@ -1,0 +1,13 @@
+# Ignore object files, binaries, and other build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+*.tmp
+*.log
+
+# Ignore entire build directories (if any)
+build/
